@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Profile Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body { font-family: Arial, sans-serif; background: #f4f4f4; margin: 0; }
+        .profile-container {
+            max-width: 500px;
+            margin: 40px auto;
+            background: #fff;
+            padding: 32px;
+            border-radius: 12px;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+        }
+        .profile-pic {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            display: block;
+            margin: 0 auto 18px auto;
+            border: 3px solid #4caf50;
+        }
+        .profile-details {
+            text-align: center;
+        }
+        .profile-details h2 {
+            margin: 10px 0 6px 0;
+            font-size: 2em;
+        }
+        .profile-details p {
+            margin: 4px 0;
+            color: #555;
+        }
+        .rating {
+            margin: 12px 0;
+            text-align: center;
+        }
+        .stars {
+            color: #FFD700;
+            font-size: 1.4em;
+        }
+        .profile-extra {
+            margin-top: 20px;
+            padding-top: 16px;
+            border-top: 1px solid #eee;
+        }
+        .profile-extra ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .profile-extra li {
+            margin-bottom: 10px;
+            color: #444;
+        }
+        .profile-extra strong {
+            color: #222;
+        }
+        .section-title {
+            font-size: 1.1em;
+            margin-top: 18px;
+            margin-bottom: 8px;
+            color: #4caf50;
+            font-weight: bold;
+        }
+        .social-links a {
+            margin: 0 8px;
+            text-decoration: none;
+            color: #4caf50;
+            font-size: 1.2em;
+        }
+        .experience, .education {
+            margin-bottom: 12px;
+        }
+        .experience-title, .education-title {
+            font-weight: bold;
+            color: #222;
+        }
+        .experience-details, .education-details {
+            color: #555;
+            font-size: 0.98em;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-container">
+        <img src="https://via.placeholder.com/120" alt="Profile Picture" class="profile-pic">
+        <div class="profile-details">
+            <h2>John Doe</h2>
+            <p>Email: johndoe@example.com</p>
+            <p>Location: New York, USA</p>
+            <p>Occupation: Senior Software Engineer</p>
+        </div>
+        <div class="rating">
+            <span class="stars">★★★★★</span>
+            <span class="stars">★★★★★</span>
+            <span style="color:#4caf50;font-weight:bold;">10/10</span>
+        </div>
+        <div class="social-links" style="text-align:center;">
+            <a href="https://linkedin.com/in/johndoe" target="_blank" title="LinkedIn">LinkedIn</a>
+            <a href="https://github.com/johndoe" target="_blank" title="GitHub">GitHub</a>
+            <a href="https://twitter.com/johndoe" target="_blank" title="Twitter">Twitter</a>
+        </div>
+        <div class="profile-extra">
+            <div class="section-title">Contact</div>
+            <ul>
+                <li><strong>Phone:</strong> +1 234 567 8901</li>
+                <li><strong>Date of Birth:</strong> January 1, 1990</li>
+                <li><strong>Website:</strong> <a href="https://johndoe.com" target="_blank">johndoe.com</a></li>
+            </ul>
+            <div class="section-title">Skills</div>
+            <ul>
+                <li>HTML, CSS, JavaScript, Python, React, Node.js</li>
+                <li>REST APIs, SQL, MongoDB</li>
+                <li>Cloud: AWS, Azure</li>
+            </ul>
+            <div class="section-title">Experience</div>
+            <div class="experience">
+                <div class="experience-title">Senior Software Engineer, Google</div>
+                <div class="experience-details">2018 - Present<br>Lead developer for scalable web applications, mentoring junior engineers.</div>
+            </div>
+            <div class="experience">
+                <div class="experience-title">Software Engineer, Microsoft</div>
+                <div class="experience-details">2014 - 2018<br>Worked on cloud solutions and enterprise products.</div>
+            </div>
+            <div class="section-title">Education</div>
+            <div class="education">
+                <div class="education-title">M.S. Computer Science, MIT</div>
+                <div class="education-details">2012 - 2014</div>
+            </div>
+            <div class="education">
+                <div class="education-title">B.S. Computer Science, Stanford University</div>
+                <div class="education-details">2008 - 2012</div>
+            </div>
+            <div class="section-title">Bio</div>
+            <ul>
+                <li>Passionate developer with 10+ years of experience building web and cloud applications.</li>
+                <li>Enjoys open-source, tech blogging, and contributing to developer communities.</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
